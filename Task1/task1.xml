@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>Task1</name>
+  </assembly>
+  <members>
+    <member name="T:Task1.StringHelper">
+      <summary>
+        Class that contains operations on strings.
+      </summary>
+    </member>
+    <member name="M:Task1.StringHelper.GetVowelCount(System.String)">
+      <summary>
+        Counts the number  a, e, i, o, and u of in the string.
+      </summary>
+      <param name="str">String that consists of lower case letters and/or spaces.</param>
+      <returns>Number  of vowels in the given string.</returns>
+      <exception cref="T:System.ArgumentException">Thrown when string is empty.</exception>
+      <exception cref="T:System.ArgumentNullException">Thrown when string is null.</exception>
+    </member>
+  </members>
+</doc>
