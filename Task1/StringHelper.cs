@@ -3,7 +3,7 @@
 namespace Task1
 {
     /// <summary>
-    /// Class that contains operations on strings.
+    /// The class about count of vowels
     /// </summary>
     public static class StringHelper
     {
@@ -18,12 +18,12 @@ namespace Task1
         {
             if (str == null)
             {
-                throw new ArgumentNullException(nameof(str), "String cannot be null.");
+                throw new ArgumentNullException(nameof(str), "cannot be null.");
             }
 
             if (str.Length == 0)
             {
-                throw new ArgumentException("String cannot be empty.", nameof(str));
+                throw new ArgumentException("${nameof(str)} cannot be empty");
             }
 
             int count = 0;
