@@ -36,7 +36,7 @@ namespace Task2
 
             if (first == 0 && second == 0)
             {
-                throw new ArgumentException("Two numbers cannot be 0 at the same time.");
+                throw new ArgumentException("cannot be 0 at the same time.");
             }
 
             while (first != 0 & second != 0)
